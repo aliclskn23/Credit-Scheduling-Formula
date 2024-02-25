@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kredi Hesaplama</title>
+    <link rel="stylesheet" href="credi.css" />
+  </head>
+  <body>
+    <form action="#" id="formKredi">
+      <h3 class="title">KREDİ HESAPLAMA FORMU</h3>
+      <label class="CklTtr" for="txtKrediTutari"
+        >Çekilecek Kredi Tutarını Giriniz :</label
+      >
+      <input type="text" id="txtKrediTutari" />
+      <label class="ListItem" for="listeVade">Vade Seçiniz :</label>
+      <select name="" id="listeVade">
+        <option value="12">12</option>
+        <option value="24">24</option>
+        <option value="36">36</option>
+        <option value="48">48</option>
+      </select>
+      <input
+        class="hesapBtn"
+        type="button"
+        value="Kredi Hesaplama"
+        onclick="krediHesapla()"
+      />
+      <strong id="sonuc"></strong>
+    </form>
+    <script src="credi.js"></script>
+  </body>
+</html>
