@@ -8,13 +8,13 @@ function krediHesapla() {
     VadeSayisi = liste.options[liste.selectedIndex].value;
   
     if (VadeSayisi == 12) {
-      OdenecekToplamTutar = cekilecekTutar * 1.3;
-    } else if (VadeSayisi == 24) {
       OdenecekToplamTutar = cekilecekTutar * 1.4;
+    } else if (VadeSayisi == 24) {
+      OdenecekToplamTutar = cekilecekTutar * 1.6;
     } else if (VadeSayisi == 36) {
-      OdenecekToplamTutar = cekilecekTutar * 1.5;
+      OdenecekToplamTutar = cekilecekTutar * 1.8;
     } else if (VadeSayisi == 48) {
-      OdenecekToplamTutar = cekilecekTutar * 1.7;
+      OdenecekToplamTutar = cekilecekTutar * 2.0;
     }
     aylikTaksit = OdenecekToplamTutar / VadeSayisi;
   
