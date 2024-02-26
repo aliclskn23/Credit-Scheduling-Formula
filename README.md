@@ -4,7 +4,7 @@
 
 ## if & else if vererek faiz oranlarını hesapladım.
 
-## innerHTML ile ekrana döktüm.
+## innerHTML ile ekrana döktüm..
 
 ## function krediHesapla() {
 
